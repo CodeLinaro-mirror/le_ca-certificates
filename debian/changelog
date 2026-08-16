@@ -1,3 +1,19 @@
+ca-certificates (20260816) unstable; urgency=medium
+
+  * Update Mozilla certificate authority bundle to version 2.90
+    The following certificate authorities were added (+):
+    + "SECOM TLS ECC Root CA 2024"
+    + "SECOM TLS RSA Root CA 2024"
+    + "Telia EC TLS Root CA v3"
+    + "Telia RSA TLS Root CA v3"
+    The following certificate authorities were removed (-):
+    - "Atos TrustedRoot 2011"
+    - "Entrust Root Certification Authority"
+    - "SecureSign Root CA12"
+    - "ePKI Root Certification Authority"
+
+ -- Julien Cristau <jcristau@debian.org>  Sun, 16 Aug 2026 23:04:36 +0200
+
 ca-certificates (20260601) unstable; urgency=medium
 
   * Remove ca-certificates-local example (closes: #988912, #1127101).
