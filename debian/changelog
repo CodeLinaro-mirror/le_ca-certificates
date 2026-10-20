@@ -1,3 +1,11 @@
+ca-certificates (20260816+nmu1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Blacklist "emSign ECC Root CA - G3" and "Comodo AAA Services root"
+    (Closes: #1151413)
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Tue, 20 Oct 2026 16:40:44 +0200
+
 ca-certificates (20260816) unstable; urgency=medium
 
   * Update Mozilla certificate authority bundle to version 2.90
